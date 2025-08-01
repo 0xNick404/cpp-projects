@@ -13,4 +13,4 @@ obj/%.o: src/%.cpp | obj
 	g++ -Iinc -c $< -o $@
 
 clean:
-	rm -rf obj/*.o bin/output
+	rm -rf obj/*.o bin/* output
